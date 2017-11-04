@@ -7,7 +7,7 @@
     "test": "standard ./**/*.js, ./**/*.jsx, *.js | standard-reporter --stylish",
     "build-dist": "rm -rf ./dist && webpack --config webpack.config.js  --bail",
     "dist": "npm test && npm run build-dist",
-    "dev": "webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "author": "",
   "license": "ISC",
