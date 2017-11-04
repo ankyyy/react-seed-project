@@ -19,9 +19,9 @@ applicationNode.id = 'application'
 
 // log('adding application node to body')
 document.body.appendChild(applicationNode)
-const add = function(e){
-items.push(e.target.value)
-}
+// const add = function(e){
+// items.push(e.target.value)
+// }
 render(<div><Main /></div>, applicationNode, () => {
     log('finished mounting application')
 })
